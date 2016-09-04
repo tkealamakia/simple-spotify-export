@@ -1,5 +1,5 @@
 # simple-spotify-export
-Exports a spotify playlist to the following line output pattern per track: title~artist~album
+Exports a spotify playlist in the following pattern per track: title~artist~album
 
 ####usage
 ./getSpotifyLibrary.py {playlistId} {userName} {OAuth Token}
