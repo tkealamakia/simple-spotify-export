@@ -1,9 +1,9 @@
 # simple-spotify-export
 Exports a spotify playlist to the following line output pattern per track: title~artist~album
 
-usage: ./getSpotifyLibrary.py {playlistId} {userName} {OAuth Token}
+**usage:** ./getSpotifyLibrary.py {playlistId} {userName} {OAuth Token}
 
-example: ./getSpotifyLibrary.py 0WQ8DIncGbXBTp9OV4J9uO tkealamakia  BQCKbZSTKgvKIwlpChBAnWPCjUTrh--JXwGJCJO5ltufvy_sc-W41ZsHJvTgQqrgbFSSqSbp69NucfsUa1y-_ok0JISaWDHMJuySEheGvTgRFxl82FttjIVDHtlxlaVvOG00lUCnGzz3Q6I_oCRi0wheDkr7m8v6Cnk8Jb0U
+**example:** ./getSpotifyLibrary.py 0WQ8DIncGbXBTp9OV4J9uO tkealamakia  BQCKbZSTKgvKIwlpChBAnWPCjUTrh--JXwGJCJO5ltufvy_sc-W41ZsHJvTgQqrgbFSSqSbp69NucfsUa1y-_ok0JISaWDHMJuySEheGvTgRFxl82FttjIVDHtlxlaVvOG00lUCnGzz3Q6I_oCRi0wheDkr7m8v6Cnk8Jb0U
 
 The spotify api does not allow a full library api request so if you want to export all your saved tracks, you will need to create a mega playlist out of them.
 
