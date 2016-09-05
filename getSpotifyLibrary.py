@@ -4,7 +4,7 @@ import sys
 
 totalArgs = len(sys.argv)
 if (totalArgs != 4):
-    print "usage: getSpotifyPlaylist.py playListId userName secureToken"
+    print "usage: python getSpotifyPlaylist.py playListId userName secureToken"
     sys.exit()
 
 def printItem(item):
